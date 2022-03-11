@@ -4,6 +4,7 @@ import Nav from '../components/Nav'
 import Results from '../components/Results'
 import requests from '../utils/requests'
 import Thumbnail from '../components/Thumbnail'
+import Footer from '../components/Footer'
 
 export default function Home({results}) {
 
@@ -20,6 +21,8 @@ export default function Home({results}) {
      <Nav />
 
      <Results results={results} />
+
+     <Footer />
     </div>
   )
 }

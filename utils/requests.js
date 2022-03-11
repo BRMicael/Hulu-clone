@@ -2,23 +2,23 @@ const API_KEY = process.env.API_KEY;
 
 export default {
     fetchTrending: {
-        title: 'Trending',
+        title: 'Em alta',
         url: `/trending/all/week?language=pt-BR&api_key=${API_KEY}`
     },
     fetchTopRated: {
-        title: 'Top Rated',
+        title: 'Mais votados',
         url: `/movie/top_rated?language=pt-BR&api_key=${API_KEY}`
     },
     fetchActionMovies: {
-        title: 'Action',
+        title: 'Ação',
         url: `/discover/movie?with_genres=28&language=pt-BR&api_key=${API_KEY}`
     },
     fetchComedyMovies: {
-        title: 'Comedy',
+        title: 'Comédia',
         url: `/discover/movie?with_genres=35&language=pt-BR&api_key=${API_KEY}`
     },
     fetchHorrorMovies: {
-        title: 'Horror',
+        title: 'Terror',
         url: `/discover/movie?with_genres=27&language=pt-BR&api_key=${API_KEY}`
     },
     fetchRomanceMovies: {
@@ -30,11 +30,11 @@ export default {
         url: `/discover/movie?with_genres=37&language=pt-BR&api_key=${API_KEY}`
     },
     fetchAnimationMovies: {
-        title: 'Animation',
+        title: 'Animação',
         url: `/discover/movie?with_genres=16&language=pt-BR&api_key=${API_KEY}`
     },
     fetchTv: {
-        title: 'Tv Movie',
+        title: 'Tv filme',
         url: `/discover/movie?with_genres=10770&language=pt-BR&api_key=${API_KEY}`
     },
 }
